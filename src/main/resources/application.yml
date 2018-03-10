@@ -1,0 +1,33 @@
+management: 
+  endpoints: 
+    web: 
+      exposure:
+        include: '*'
+  endpoint:           
+    health: 
+      show-details: always      
+
+prueba: 
+  valor: origin   
+  
+  listaE: 
+    - elemento1
+    - elemento2
+    
+  listaA: 
+    elemento3, elemento4
+    
+  map: 
+    clave1: valor1
+    clave2: valor2
+    clave-compuesta: valor3
+    clave+comp: valor4
+    
+  binder: propiedadBinder
+   
+  map2: 
+    '[clave.compuesta]': valor5
+
+  tiempo: 10m
+
+    
